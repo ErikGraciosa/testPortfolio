@@ -31,9 +31,11 @@ export default {
 
 - TODO
 
-[] Add router
-[] Add Navigation
-[] Add how I passed AZ 204 blog
-[] Add how I passed AWS Developer blog
-[] Add Media page
-[] Add pinball utility
+- [ ] Add router
+- [ ] Add Navigation
+- [ ] Update header
+- [ ] update footer
+- [ ] Add how I passed AZ 204 blog
+- [ ] Add how I passed AWS Developer blog
+- [ ] Add Media page
+- [ ] Add pinball utility
