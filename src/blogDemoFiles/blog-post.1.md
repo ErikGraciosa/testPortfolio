@@ -1,42 +1,25 @@
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+# How I passed the AZ 204
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+April 14th, 2024
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+The AZ204 took me multiple tries to pass. It is a difficult test. Question struture is unique to the test and there are some sections you cannot go back and review. At the time I took the test in 2023 there were multiple choice and multiple answer, fill in the blank, and a case-study like question. See the materials section for being prepared for what kind of questions are on the test.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+It is important to know C# .NET since it is the primary language used on the test. It is important to practice the lab exercises in the microsoft content and use the CLI and the cloudshell to build and configure resources.
 
-## Heading
+## Materials
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+These are the resources I used to learn and practice skills for the AZ204 exam.
 
-### Sub-heading 1
+- **Microsoft content**
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  - [Understand the exam structure and content covered](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204)
+  - [Documentation of modules](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-prepare-for-the-exam)
+  - [The .NET on Azure series](https://www.youtube.com/watch?v=EzdqO6jX8u4&list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
 
-### Sub-heading 2
+- **Practice Tests**
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
+  - [Microsoft's Practice Test](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/practice/assessment?assessment-type=practice&assessmentId=35&practice-assessment-type=certification&source=docs) This format is different from the actual test
+  -
 
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+- **Flash cards**
+  - [Anki](https://ankiweb.net/about) I used Anki flashcards on my desktop and phone to be able to memorize and retain Azure content.
