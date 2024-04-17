@@ -15,11 +15,11 @@ export default function Header(props: HeaderProps) {
   const { sections, title } = props;
 
   return (
-    <React.Fragment>
+    <>
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Typography
           component="h2"
-          variant="h5"
+          variant="h2"
           color="inherit"
           align="center"
           noWrap
@@ -46,6 +46,6 @@ export default function Header(props: HeaderProps) {
           </Link>
         ))}
       </Toolbar>
-    </React.Fragment>
+    </>
   );
 }

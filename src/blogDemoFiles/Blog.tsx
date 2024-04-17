@@ -1,11 +1,8 @@
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Header from './Header';
 import MainFeaturedPost from './MainFeaturedPost';
 // import FeaturedPost from './FeaturedPost';
 import Main from './Main';
@@ -15,11 +12,7 @@ import post1 from './blog-post.1.md'; //Had to import mark down correctly https:
 import post2 from './blog-post.2.md';
 // import post3 from './blog-post.3.md';
 
-const sections = [
-  { title: 'Projects', url: '#' },
-  { title: 'Pinball', url: '#' },
-  { title: 'Open Source Contributions', url: '#' },
-];
+
 
 const mainFeaturedPost = {
   title: 'Full Stack Software Engineer',
@@ -70,15 +63,10 @@ const sidebar = {
   ],
 };
 
-// TODO remove, this demo shouldn't need to reset the theme.
-const defaultTheme = createTheme();
-
 export default function Blog() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <CssBaseline />
+    <>
       <Container maxWidth="lg">
-        <Header title="Erik Graciosa" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           {/* <Grid container spacing={4}>
@@ -93,13 +81,11 @@ export default function Blog() {
               description={sidebar.description}
               archives={sidebar.archives}
               social={sidebar.social}
-            />
+              />
           </Grid>
         </main>
       </Container>
-      <Footer
-        
-      />
-    </ThemeProvider>
+      <Footer />
+    </>
   );
 }

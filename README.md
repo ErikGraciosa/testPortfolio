@@ -31,11 +31,11 @@ export default {
 
 - TODO
 
-- [ ] Add router
-- [ ] Add Navigation
-- [ ] Update header
-- [ ] update footer
-- [ ] Add how I passed AZ 204 blog
-- [ ] Add how I passed AWS Developer blog
+- [ x ] Add router
+- [ x ] Add Navigation
+- [ x ] Update header
+- [ x ] update footer
+- [ x ] Add how I passed AZ 204 blog
+- [ x ] Add how I passed AWS Developer blog
 - [ ] Add Media page
 - [ ] Add pinball utility
