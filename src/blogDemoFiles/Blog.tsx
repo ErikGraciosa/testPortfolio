@@ -7,7 +7,7 @@ import XIcon from '@mui/icons-material/X';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
 import MainFeaturedPost from './MainFeaturedPost';
-import FeaturedPost from './FeaturedPost';
+// import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
@@ -22,39 +22,44 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: 'Title of a longer featured blog post',
-  description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+  title: 'Full Stack Software Engineer',
+  languages: 'Languages: JavaScript | Typescript | C# | HTML | CSS | SQL',
+  frameworks: 'Env/Frameworks: React | Node.js | Express | PUG | Redux | jQuery | .NET | Angular',
+  cloud: 'Cloud: Azure | AWS',
+  databases: 'Databases: PostgreSQL | CosmosDB',
+  testing: 'Testing Suites: Jest',
+  other: 'Other: Github | Git | Heroku | Netlify | VSCode | Postman | PGAdmin | Agile/Scrum | Miro | Jira | StripeAPI | Zod | Webpack | JWT | JSON',
+  certifications: 'Certifications: AZ900 Azure Fundamentals | AZ204 Azure Developer Associate | AWS Associate Developer',
   image: 'https://source.unsplash.com/random?wallpapers',
   imageText: 'main image description',
-  linkText: 'Continue reading…',
+  linkText: '',
 };
 
-const featuredPosts = [
-  {
-    title: 'Featured post',
-    date: 'Nov 12',
-    description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random?wallpapers',
-    imageLabel: 'Image Text',
-  },
-  {
-    title: 'Post title',
-    date: 'Nov 11',
-    description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random?wallpapers',
-    imageLabel: 'Image Text',
-  },
-];
+// const featuredPosts = [
+//   {
+//     title: 'Featured post',
+//     date: 'Nov 12',
+//     description:
+//       'This is a wider card with supporting text below as a natural lead-in to additional content.',
+//     image: 'https://source.unsplash.com/random?wallpapers',
+//     imageLabel: 'Image Text',
+//   },
+//   {
+//     title: 'Post title',
+//     date: 'Nov 11',
+//     description:
+//       'This is a wider card with supporting text below as a natural lead-in to additional content.',
+//     image: 'https://source.unsplash.com/random?wallpapers',
+//     imageLabel: 'Image Text',
+//   },
+// ];
 
 const posts = [post2, post1];
 
 const sidebar = {
   title: 'About',
   description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+    'This is a tech-focused but sometimes not tech-focused blog.',
   archives: [
     { title: 'March 2024', url: '#' }
   ],
@@ -73,14 +78,14 @@ export default function Blog() {
     <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Erik Graciosa - Software Engineer" sections={sections} />
+        <Header title="Erik Graciosa" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
-          <Grid container spacing={4}>
+          {/* <Grid container spacing={4}>
             {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
             ))}
-          </Grid>
+          </Grid> */}
           <Grid container spacing={5} sx={{ mt: 3 }}>
             <Main title="My Tech Blog" posts={posts} />
             <Sidebar

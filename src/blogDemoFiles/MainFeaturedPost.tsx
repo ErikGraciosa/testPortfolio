@@ -6,7 +6,13 @@ import Box from '@mui/material/Box';
 
 interface MainFeaturedPostProps {
   post: {
-    description: string;
+    description?: string;
+    languages: string;
+    frameworks: string;
+    cloud: string;
+    databases: string;
+    testing: string;
+    other: string;
     image: string;
     imageText: string;
     linkText: string;
@@ -42,20 +48,37 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
           backgroundColor: 'rgba(0,0,0,.3)',
         }}
       />
-      <Grid container>
+      <Grid>
         <Grid item md={6}>
           <Box
             sx={{
               position: 'relative',
               p: { xs: 3, md: 6 },
-              pr: { md: 0 },
             }}
           >
             <Typography component="h1" variant="h3" color="inherit" gutterBottom>
               {post.title}
             </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
+            {/* <Typography variant="h5" color="inherit" paragraph>
               {post.description}
+            </Typography> */}
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.languages}
+            </Typography>
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.frameworks}
+            </Typography>
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.cloud}
+            </Typography>
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.databases}
+            </Typography>
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.testing}
+            </Typography>
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.other}
             </Typography>
             <Link variant="subtitle1" href="#">
               {post.linkText}
