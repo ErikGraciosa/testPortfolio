@@ -10,21 +10,22 @@ I would emphasize once again to create a study plan and to schedule what you wil
 
 After I was passing the practice tests consistenly at 90% I took the real exam.
 
-## Materials
+## **Materials**
 
 These are the resources I used to learn and practice skills for the AWS exam.
 
-- **AWS content**
+### **AWS content**
 
-  - [Read and understand the exam structure and content covered](https://aws.amazon.com/certification/certified-developer-associate/)
+[Read and understand the exam structure and content covered](https://aws.amazon.com/certification/certified-developer-associate/)
 
-- **Udemy Course**
+### **Udemy Course**
 
-  - [Course created by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
+[Course created by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
 
-- **Practice Tests**
+### **Practice Tests**
 
-  - [Jon Bonso's practice tests](https://portal.tutorialsdojo.com/courses/aws-certified-developer-associate-practice-exams/)
+[Jon Bonso's practice tests](https://portal.tutorialsdojo.com/courses/aws-certified-developer-associate-practice-exams/)
 
-- **Flash cards**
-  - [Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain AWS content. I would suggest making flash cards of the recap questions at the end of each module in Stephane Maarek's Udemy course to get familiar with the main concepts and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scams clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)
+### **Flash cards**
+
+[Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain AWS content. I would suggest making flash cards of the recap questions at the end of each module in Stephane Maarek's Udemy course to get familiar with the main concepts and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scams clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)

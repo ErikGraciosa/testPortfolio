@@ -10,24 +10,26 @@ My past experience with Azure before studying to take the exam was with Azure fu
 
 The most important part of studying was creating a study plan to study a consistent amount, and then take the real test after completing practice test at 90%.
 
-## Materials
+## **Materials**
 
 These are the resources I used to learn and practice skills for the AZ204 exam.
 
-- **Microsoft content**
+### **Microsoft content**
 
-  - [Read and understand the exam structure and content covered](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204)
-  - [Documentation of modules](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-prepare-for-the-exam)
-  - [The .NET on Azure series](https://www.youtube.com/watch?v=EzdqO6jX8u4&list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
+[Read and understand the exam structure and content covered](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204)
+[Documentation of modules](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-prepare-for-the-exam)
+[The .NET on Azure series](https://www.youtube.com/watch?v=EzdqO6jX8u4&list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
 
-- **Udemy Course**
+### **Udemy Course**
 
-  - [Course created by Scott Duffy](https://www.udemy.com/course/70532-azure/)
+[Course created by Scott Duffy](https://www.udemy.com/course/70532-azure/)
 
-- **Practice Tests**
+### **Practice Tests**
 
-  - [Microsoft's Practice Test](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/practice/assessment?assessment-type=practice&assessmentId=35&practice-assessment-type=certification&source=docs) This format is different from the actual test
-  - MeasureUp practice tests. I used MeasureUp Practice tests from a work subscription. They were decent but compare other practice test content to find something with positive reviews.
+[Microsoft's Practice Test](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/practice/assessment?assessment-type=practice&assessmentId=35&practice-assessment-type=certification&source=docs) This format is different from the actual test
 
-- **Flash cards**
-  - [Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain Azure content. I would suggest making flash cards of the recap questions at the end of each module and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scams clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)
+MeasureUp practice tests. I used MeasureUp Practice tests from a work subscription. They were decent but compare other practice test content to find something with positive reviews.
+
+### **Flash cards**
+
+[Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain Azure content. I would suggest making flash cards of the recap questions at the end of each module and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scams clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)

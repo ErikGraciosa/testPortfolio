@@ -40,7 +40,7 @@ const options = {
     a: { component: Link },
     li: {
       component: MarkdownListItem,
-    },
+    }
   },
 };
 
