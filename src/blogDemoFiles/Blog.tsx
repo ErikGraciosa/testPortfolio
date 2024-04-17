@@ -2,7 +2,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
@@ -69,9 +69,9 @@ const sidebar = {
     { title: 'April 1999', url: '#' },
   ],
   social: [
-    { name: 'GitHub', icon: GitHubIcon },
-    { name: 'X', icon: XIcon },
-    { name: 'Facebook', icon: FacebookIcon },
+    { name: 'GitHub', icon: GitHubIcon, url: 'https://github.com/ErikGraciosa' },
+    { name: 'X', icon: XIcon, url: 'https://twitter.com/erikgraciosa' },
+    { name: 'Linked In', icon: LinkedInIcon, url: 'https://www.linkedin.com/in/erikgraciosa/' }
   ],
 };
 
