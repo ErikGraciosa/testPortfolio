@@ -28,4 +28,4 @@ These are the resources I used to learn and practice skills for the AWS exam.
 
 ### **Flash cards**
 
-[Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain AWS content. I would suggest making flash cards of the recap questions at the end of each module in Stephane Maarek's Udemy course to get familiar with the main concepts and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scams clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)
+[Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain AWS content. I would suggest making flash cards of the recap questions at the end of each module in Stephane Maarek's Udemy course to get familiar with the main concepts and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scam clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)

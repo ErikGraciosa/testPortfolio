@@ -38,4 +38,4 @@ export default {
 - [ x ] Add how I passed AZ 204 blog
 - [ x ] Add how I passed AWS Developer blog
 - [ ] Add Media page
-- [ ] Add pinball utility
+- [ x ] Add pinball utility

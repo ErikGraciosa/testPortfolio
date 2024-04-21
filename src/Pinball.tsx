@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import Papa from "papaparse";
 import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
+import { CircularProgress } from '@mui/material';
 
 export default function Pinball() {
 
@@ -68,7 +69,13 @@ export default function Pinball() {
     }
   }, [data])
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return (
+    <div>
+      <p>Data is Loading...</p>
+      <CircularProgress></CircularProgress>
+    </div>
+  );
+
   if (error) return <div>An error occurred: {error.message}</div>;
 
   //Data table
