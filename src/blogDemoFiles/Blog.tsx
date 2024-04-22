@@ -16,12 +16,12 @@ import post2 from './blog-post.2.md';
 
 const mainFeaturedPost = {
   title: 'Full Stack Software Engineer',
-  languages: 'Languages: JavaScript | Typescript | C# | HTML | CSS | SQL',
-  frameworks: 'Env/Frameworks: React | Node.js | Express | PUG | Redux | jQuery | .NET | Angular',
+  languages: 'Languages: JavaScript | Typescript | C# | Python | HTML | CSS | SQL',
+  frameworks: 'Env/Frameworks: React | Angular | Node.js | Express | PUG | Redux | jQuery | .NET',
   cloud: 'Cloud: Azure | AWS',
-  databases: 'Databases: PostgreSQL | CosmosDB',
+  databases: 'Databases: PostgreSQL | CosmosDB | DynamoDB',
   testing: 'Testing Suites: Jest',
-  other: 'Other: Github | Git | Heroku | Netlify | VSCode | Postman | PGAdmin | Agile/Scrum | Miro | Jira | StripeAPI | Zod | Webpack | JWT | JSON',
+  other: 'Other: Github | Git | Heroku | Netlify | VSCode | Postman | PGAdmin | Agile/Scrum | Miro | Jira | StripeAPI | Zod | Webpack | Vite | JWT | JSON',
   certifications: 'Certifications: AZ900 Azure Fundamentals | AZ204 Azure Developer Associate | AWS Associate Developer',
   image: 'https://source.unsplash.com/random?wallpapers',
   imageText: 'main image description',
